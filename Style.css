@@ -1,0 +1,213 @@
+        #city-search {
+            width: 500px;
+            margin-left: 5%;
+        }
+        
+        #icon {
+            margin-left: 20%;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+        }
+        
+        body {
+            overflow-x: hidden;
+            font-family: 'Roboto', sans-serif;
+            background-color: #c5c5c548 !important;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        div.widget {
+            display: flex;
+            position: relative;
+            width: 65%;
+            height: 190px;
+            margin: 150px 50px;
+            background-color: #fcfdfd;
+            border-radius: 9px;
+            padding: 10px;
+            padding-right: 30px;
+            box-shadow: 0px 31px 35px -26px #080c21;
+        }
+        
+        div#date {
+            font-size: 14px;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        
+        div#city {
+            font-size: 21px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding-top: 5px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+        
+        div#temp {
+            height: 90px;
+            display: flex;
+            font-size: 5em;
+            text-transform: uppercase;
+            padding-top: 5px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+        
+        div.panel {
+            display: inline-block;
+        }
+        
+        div.right-panel {
+            margin-left: 11%;
+            margin-top: 6%;
+        }
+        
+        #weather-icon {
+            height: 100px;
+            margin-left: 5%;
+        }
+        
+        #weather-desc {
+            margin-left: 10%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 400;
+            font-size: 1.2em;
+        }
+        
+        #hi-lo {
+            display: flex;
+            justify-content: center;
+            margin-top: 25%;
+            margin-right: 20%;
+        }
+        
+        #main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        #predictions {
+            margin-top: 1%;
+            margin-right: 5%;
+            height: 50%;
+        }
+        
+        .list-group-item {
+            background-color: #eeeeee !important;
+        }
+        
+        .widget-container {
+            margin-top: -10%;
+            margin-left: 15%;
+            width: 100%;
+        }
+        
+        .left-side {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .right-side {
+            margin-top: 5%;
+            width: 60%;
+        }
+        
+        #extra-info {
+            width: 80%;
+            margin-top: -10%;
+        }
+        
+        #country {
+            max-width: 100%;
+            height: 120px;
+            width: auto\9;
+        }
+        
+        .left-panel {
+            width: 60%;
+            ;
+        }
+        
+        .right-panel {
+            width: 40%;
+        }
+        
+        @media only screen and (max-width: 1600px) {
+            #temp-degree {
+                font-size: 3.5em;
+                margin-top: 1%;
+                margin-left: 28%;
+            }
+            .right-panel {
+                width: 0%;
+            }
+            #country {
+                display: none;
+            }
+            .left-panel {
+                width: 100%;
+            }
+        }
+        
+        @media only screen and (max-width: 1200px) {
+            .widget {
+                width: 120px;
+                height: 190px;
+            }
+        }
+        
+        @media only screen and (max-width: 1000px) {
+            #main {
+                flex-direction: column;
+            }
+            .left-side {
+                width: 60%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .widget {
+                width: 300px !important;
+                height: 190px;
+            }
+            .right-side {
+                width: 100%;
+                justify-items: center;
+            }
+        }
+        
+        @media only screen and (max-width: 800px) {
+            #main {
+                flex-direction: column;
+            }
+            .left-side {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+            }
+            #extra-info {
+                width: 150%;
+                margin-left: 100%;
+                margin-top: -50%;
+            }
+        }
+        
+        @media only screen and (max-width: 900px) {
+            .left-side {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+            }
+            #extra-info {
+                width: 100%;
+                margin-left: 80%;
+                margin-top: -20%;
+            }
+        }
